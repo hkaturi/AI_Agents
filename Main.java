@@ -1,0 +1,1 @@
+if (someObject != null) { someObject.someMethod(); }
