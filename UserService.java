@@ -1,1 +1,2 @@
-List<User> users = userRepository != null ? userRepository.findAll() : new ArrayList<>();
+List<User> userList = new ArrayList<>();
+if(userList.stream().anyMatch(user -> user.getId().equals(userId))) {
